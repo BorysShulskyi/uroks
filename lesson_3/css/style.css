@@ -1,0 +1,57 @@
+* {
+   color: rgb(45, 0, 167);
+}
+
+
+h2 {color: royalblue;}
+
+.zagolovok.osnova{
+   color: fuchsia;
+}
+
+.zagolovok.osnova { 
+   color: red;
+}
+
+.zagolovok{
+   color: limegreen;
+}
+
+.vstup {
+   color: mediumvioletred;
+}
+.vstup.dos{
+   color: rgb(175, 199, 21);
+}
+#narodgennyi{
+   color: sienna;
+}
+.lilibet {
+   color: rgb(40, 145, 47);
+}
+
+.narod.lilibet {
+   color: rgb(145, 40, 40);
+}
+p.spadkoemuc{
+   color: red;
+}
+.vijna,
+.povijni {
+   color: brown;
+}
+.children{
+   color: rgb(252, 3, 3);
+}
+
+.koroleva .pochatok{
+   color: peru;
+}
+
+.koroleva p{
+   color: rgb(255, 0, 242);
+}
+
+.external-text {
+   color: rgb(0, 2, 128);
+}
