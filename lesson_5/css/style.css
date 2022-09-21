@@ -1,0 +1,191 @@
+/*@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:regular,500,600,700,800,900&display=swap");
+
+/*lato */
+
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+       url('../fonts/Lato-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Black.woff2') format('woff2'),
+       url('../fonts/Lato-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+   url('../fonts/Lato-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+* {
+   font-weight: 500;
+  
+}
+/*--------------------------header-----------------------*/
+
+.vstup-osnovn,h2{
+   font-family: 'Lato';
+   font-weight: bold;
+   color: rgb(255, 0, 0, 0.75);
+   font-size: 50px;
+   font-style: italic;
+   text-shadow: 5px 5px 5px #555;
+   text-align: center;
+   padding: 30px;
+}
+.vstup-text {
+   color: rgb(14, 159, 43);
+   text-shadow: 3px 1px 5px #888;
+}
+.rl-quickindex {
+   color: blue;
+}
+.vstup-foto{
+   margin: 20px;
+}
+.index-level {
+   padding: 0px 0px 0px 50px;
+   font-family: 'Lato';
+   font-weight: bold;
+   text-decoration: underline;
+   }
+.rl-quickindex .level01{
+   color: rgb(49, 124, 6);
+}
+
+.level02,
+.level03,.level07 {
+   color: hotpink;
+   }
+.level04,
+.level05,.level09 {
+   color: brown;
+}
+.level06 {
+   font-size: 18px;
+}
+
+.level08 {
+   font-family: 'Lato';
+   font-weight: bold;
+   font-size: 20px;
+}
+/*-----------------------main--------------------*/
+.tvortsi-zag > p{
+   color: rgb(225, 20, 20);
+   font-weight: bold;
+}
+.tvortsi-zag + p{
+   color: rgb(20, 225, 20);
+   font-weight: bold;
+}
+.poperednyk-zag > p{
+   color: rgb(147, 11, 11);
+   font-weight: bold;
+}
+.poperednyk-zag ~ p{
+   color: rgb(141, 135, 246);
+   font-weight: bold;
+}
+/*-------------*/
+
+
+.tvortsi-text {
+   text-indent: 40px;
+   text-align: justify;
+   text-decoration: underline;
+}
+
+.poperednyk-text {
+   text-align: right;
+}
+
+.skhematychnyi-text {
+   text-transform:uppercase;
+   text-align: left;
+   color: rgb(0, 96, 193);
+}
+.skhematychnyi-spysok {
+   padding: 20px 40px;
+   color: green;
+}
+.skhematychnyi1 {
+   text-transform: lowercase;
+}
+.skhematychnyi2 {
+   text-transform: capitalize;
+}
+.skhematychnyi3 {
+   text-transform: uppercase;
+}
+.skhematychnyi4 {
+   text-transform: none;
+}
+
+.yak-pratsiuie-text {
+   color: peru;
+   text-decoration: underline;
+   text-indent: 50px;
+   font-weight: 600;
+}
+
+.tuneliuvannia-text {
+   text-indent: 10px;
+   line-height: 1.5;
+   color: rgb(6, 142, 142);
+}
+
+.formuvannia-vysoty-barieru-text {
+   letter-spacing: 5px;
+   font-style: italic;
+}
+
+.znachennia-text {
+   text-shadow: 2px 5px 3px rgb(248, 1, 1);
+   font-size: 30px;
+   text-align: center;
+}
+.pryklad-kremnii-text {
+   white-space: nowrap;
+   color: rgb(147, 11, 11);
+
+}
+
+.doslidzhennia-text1 {
+   word-spacing: 20px;
+   padding: 20px;
+}
+.doslidzhennia-text2 {
+   text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+.doslidzhennia-text3 {
+  text-decoration: underline;
+   color: violet;
+}
+/*----------------------- footer -----------*/
+.pidval-zag{
+   padding: 50px 30px;
+}
+.pidval {
+   color: green;
+   text-shadow: 10px 15px 5px rgb(225, 20, 20);
+   
+}
+.pidval-foto{
+   margin-top: 50px;
+}
