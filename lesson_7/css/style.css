@@ -1,0 +1,171 @@
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+       url('../fonts/Lato-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Black.woff2') format('woff2'),
+       url('../fonts/Lato-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+   url('../fonts/Lato-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+body{
+   font-family: 'Lato';
+   font-weight: 400;
+   font-size: 16px;
+   color: #1E212C;
+  
+}
+
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+   }
+.page{
+   
+   background:url("../img/111.jpeg") 1250px 2500px / 400px 500px no-repeat, url("../img/3.jpeg") 950px 900px / 400px 500px no-repeat, url("../img/3.jpeg") 650px bottom  no-repeat, url("../img/33333.jpeg") right bottom  no-repeat, url("../img/3333.jpeg") 200px 250px / 300px 400px no-repeat, url("../img/44.jpeg") 700px 300px / 600px 900px no-repeat, url("../img/2.jpeg") right top / 300px 400px no-repeat, url('../img/000.jpeg') 0 0 / 250px 300px no-repeat, radial-gradient(ellipse at center, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 29%,rgba(32,124,202,1) 37%,rgba(221,119,201,1) 45%,rgba(41,137,216,1) 64%,rgba(30,87,153,1) 72%,rgba(221,119,201,1) 100%);;
+}
+.exper {
+   max-width: 700px;
+   margin: 0 auto;
+   font-weight: 900;
+   color: rgb(24, 21, 32);
+
+   
+}
+.zagolov{
+   text-align: center;
+   color: rgb(5, 0, 109);
+   padding: 10px;
+   margin-bottom: 40px;
+   text-shadow: 4px 4px 4px red;
+   font-size: 40px;
+}
+.exper-bg-color{
+   
+   background-color: rgb(123, 140, 207);
+   padding: 15px;
+   margin-bottom: 20px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+}
+.exper-bg-image{
+   background-image: url(../img/large.jpg);
+   padding: 15px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+   margin-bottom: 20px;
+   }
+   .expers-bg-repeat{
+   margin-bottom: 20px;
+   padding: 10px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+   }
+
+.expers-bg-repeat p{
+   background-color: rgb(15, 138, 214);
+   background-image: url(../img/02.jpeg);
+   padding: 15px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+   
+}
+.exper-bg-repeat{
+background-repeat: repeat;
+margin-bottom: 10px;
+}
+
+.exper-bg-repeat-no{
+background-repeat: no-repeat;
+margin-bottom: 10px;
+}
+.exper-bg-repeat-x{
+background-repeat: repeat-x;
+margin-bottom: 10px;
+}
+.exper-bg-repeat-y{
+   background-repeat: repeat-y;
+   margin-bottom: 0px;
+}
+
+.exper-bg-position{
+   background-color: rgb(15, 138, 214);
+   background-image: url(../img/02.jpeg);
+   background-repeat: no-repeat;
+   padding: 15px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+   background-position: 160px 10px;
+   margin-bottom: 20px;
+}
+.exper-bg-attachmen{
+height: 300px;
+background-color: rgb(15, 138, 214);
+   background-image: url(../img/02.jpeg);
+   background-repeat: no-repeat;
+   padding: 15px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+   background-position: center;
+   margin-bottom: 20px;
+background-attachment: fixed;
+
+}
+.expers-bg-size{
+   margin-bottom: 40px;
+   padding: 10px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+}
+.expers-bg-size p{
+   height: 300px;
+   background-color: rgb(15, 138, 214);
+   background-image: url(../img/02.jpeg);
+   background-repeat: no-repeat;
+   padding: 15px;
+   border: 5px solid rgba(7, 2, 96, 0.813);
+   border-radius: 50px  20px;
+  
+   
+}
+.bg-size-auto{
+   background-position: center;
+   background-size: auto 80%;
+   margin-bottom: 10px;
+}
+
+.bg-size-contain{
+   background-size: contain;
+   margin-bottom: 10px;
+}
+
+.bg-size-cover{
+   background-size: cover;
+}
+
+.exper-zmist{
+   font-size: 20;
+   font-weight: bolt;
+   text-decoration: underline;
+   color: indigo;
+}
+.exper-zmist li{
+   margin-bottom: 10px;
+}
